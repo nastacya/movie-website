@@ -1,5 +1,5 @@
 import Movie
-from udacity import fresh_tomatoes
+from fresh_tomatoes import open_movies_page
 
 avengers = Movie.Movie("Avengers",
                        "Marvel's The Avengers is the eighth-fastest-grossing film worldwide by days to milestone",
@@ -32,4 +32,4 @@ wonder = Movie.Movie("Wonder",
                      "https://www.youtube.com/watch?v=Ob7fPOzbmzE")
 
 movies = [avengers, only_the_brave, get_out, logan, wind_river, wonder]
-fresh_tomatoes.open_movies_page(movies)
+open_movies_page(movies)
