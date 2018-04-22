@@ -2,8 +2,13 @@ import webbrowser
 
 
 class Movie():
-    # a constructor is created
-    def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
+    # a constructor is created. It stores movie titles, storylines, where you
+    # read about movie plot, movie posters and youtube trailers.
+    def __init__(self,
+                 movie_title,
+                 movie_storyline,
+                 poster_image,
+                 trailer_youtube):
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
